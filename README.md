@@ -41,13 +41,11 @@ syntax-highlighter/
 ├── README.md # Proje tanıtımı (bu dosya)
 └── main.py # Ana çalışma dosyası
 
----
 
 ## ⚙️ Kurulum ve Çalıştırma
 
 ### 1. Depoyu klonlayın
-```bash
-git clone https://github.com/kullaniciadi/syntax-highlighter.git
+git clone https://github.com/sudeenaz/Real-Time-Grammar-Based-Syntax-Highlighter-with-GUI
 cd syntax-highlighter
 2. Gerekli kütüphaneleri yükleyin
 
@@ -58,10 +56,7 @@ python main.py
 🖼️ Ekran Görüntüsü
 
 
-📘 Örnek Gramer Kuralı (Basitleştirilmiş)
-python
-Kopyala
-Düzenle
+📘 Örnek Gramer Kuralı 
 TOKEN_REGEX = [
     ('ANAHTAR_KELIME', r'\b(if|else|for|while|return)\b'),
     ('SAYI', r'\b\d+\b'),
